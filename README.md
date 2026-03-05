@@ -58,7 +58,7 @@ Crie um arquivo `.env` na raiz do projeto com as variáveis necessárias.
 ### Execução
 
 ```bash
-uvicorn app.main:app --reload
+python -m uvicorn app.main:app --reload
 ```
 
 A API estará disponível em `http://localhost:8000`
